@@ -125,13 +125,13 @@ td{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 90%;
 }
 #footer_2>p{
-    
     width: 31%;
     font-size: 15px;
     color: gray;
-    text-align: justify;
+    text-align: center;
 }
 #downlods>p{
     font-weight: 600;
@@ -184,7 +184,11 @@ td{
     #footer_2{
         display: flex;
         flex-direction: column;
+
         
+    }
+    #footer_2>p{
+        width: 100%;
     }
     
 }
@@ -217,9 +221,7 @@ td{
         text-align: center; 
         width: 100%;
     }
-    #footer_2>p{
-        width: 100%;
-    }
+    
     #footer-3{
         width: 90%;
     }
